@@ -1,2 +1,4 @@
-- name: Example from an Ansible Playbook
+---
+
+- name: Example from an Ansible Playbook2
   ansible.builtin.ping:
