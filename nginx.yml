@@ -5,5 +5,5 @@
   become_user: root
   tasks:
     - yum:
-        name: nginx
-      when: ansible_os_family == "Debian"
+       name: nginx
+      
